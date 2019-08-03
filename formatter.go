@@ -2,9 +2,15 @@ package main
 
 import "fmt"
 
+/*
+Markdown is the implemented type of Formatter.
+*/
 type Markdown struct {
 }
 
+/*
+Hugo is the implemented type of Formatter.
+*/
 type Hugo struct {
 }
 

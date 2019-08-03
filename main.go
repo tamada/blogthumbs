@@ -16,8 +16,14 @@ import (
 	flag "github.com/spf13/pflag"
 )
 
+/*
+VERSION shows the version of blogthumbs.
+*/
 const VERSION = "1.0.0"
 
+/*
+Formatter is an interface for generating image links for the blog systems.
+*/
 type Formatter interface {
 	format(fileName, thumbnail string) string
 }
